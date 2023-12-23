@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: white;
     background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     display: flex;
@@ -12,7 +13,10 @@ body{
     min-height: 100vh;
 }
 main{
-    min-width: 40vw;
+    min-width: 35vw;
+}
+main h2{
+    font-size: 2rem;
 }
 form{
     margin: 10vh 1vw;
@@ -46,6 +50,10 @@ form p{
 }
 .message{
     margin: 2vh;
+    text-align: center;
+    color:black;
+    background-image: linear-gradient(red, yellow);
+    font-weight: 900;
 }
 form button{
     font-size: large;
