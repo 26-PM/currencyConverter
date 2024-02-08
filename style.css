@@ -20,10 +20,15 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 main h2 {
     font-size: 2rem;
 }
+.heading {
+    position: absolute;
+    top: 4vmax;
+    left: 37vmax;
+}
+
 
 form {
     display: flex;
@@ -80,3 +85,10 @@ form button {
     font-size: large;
     cursor: pointer;
 }
+@media screen and (max-width: 550px) {
+    .heading{
+        position: absolute;
+        top: 10vmax;
+        left: 6vmax;
+    }
+  }
